@@ -1,4 +1,5 @@
-.body {
+html,
+body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -7,7 +8,7 @@
   color: #434455;
   background-color: #ffffff;
 }
-.img {
+img {
   display: block;
 }
 .header {
@@ -103,7 +104,7 @@
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.h1 {
+h1 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -113,7 +114,7 @@
   margin: 290px;
 }
 
-.button {
+button {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -132,7 +133,7 @@
 button:hover {
   background-color: #404bbf;
 }
-.button:focus {
+button:focus {
   background-color: #404bbf;
 }
 .section-iki {
@@ -167,7 +168,7 @@ button:hover {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.p {
+p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -259,6 +260,6 @@ button:hover {
   color: #f4f4fd;
   max-width: 264px;
 }
-.span {
+span {
   color: #f4f4fd;
 }
