@@ -1,61 +1,71 @@
-
+/* Genel Ayarlar */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
+
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
+
+/* Container */
+.container {
+  max-width: 1158px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  background-color: #ffffff;
+  padding: 20px 0;
 }
+
 .header-div {
   display: flex;
-}
-.container {
-  width: 1158px !important;
-  margin: 0 auto;
-  padding: 0 15px !important;
-}
-.header-nav {
-  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
+/* Logo */
 .logo-bir {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
   margin-right: 76px;
 }
+
 .logo-iki {
-  font-family: "Raleway";
   color: #2e2f42;
 }
+
+/* Navigation */
 .nav-ul {
   display: flex;
   gap: 40px;
-}
-.nav-ul li {
-  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-links {
-  font-family: "Roboto";
-  color: #2e2f42;
   font-weight: 500;
   text-decoration: none;
-  list-style-type: none;
+  color: #2e2f42;
   padding: 24px 0;
 }
 
@@ -64,202 +74,176 @@ img {
   text-decoration: underline;
   color: #404bbf;
 }
-.nav-links:visited {
-  text-decoration: none;
-}
-.address {
-  font-family: "Roboto";
-  text-decoration: none;
-  font-size: medium;
-  font-weight: 400;
-  font-style: normal;
-}
+
+/* Address */
 .address-ul {
-  color: #434455;
-  text-decoration: none;
-  font-weight: 400;
-  list-style-type: none;
   display: flex;
   gap: 40px;
+  list-style: none;
 }
-.address-ul li {
-  color: #434455;
-  text-decoration: none;
-  font-weight: 400;
-}
+
 .address-links {
-  font-style: normal;
-  color: #434455;
   text-decoration: none;
+  color: #434455;
 }
+
 .address-links:hover,
 .address-links:focus {
   text-decoration: underline;
   color: #404bbf;
 }
-.address-links:visited {
-  text-decoration: none;
-}
+
+/* Ana Bölüm */
 .section-bir {
   background-color: #2e2f42;
   padding: 188px 0;
-}
-h1 {
-  font-size: 56px;
-  line-height: 1.07;
   text-align: center;
-  color: #ffffff;
-  letter-spacing: 0.02em;
-  max-width: 496px;
-  margin: 290px;
 }
 
-button {
+h1 {
+  font-size: 56px;
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  max-width: 496px;
+  margin: 0 auto 24px;
+}
+
+.button {
+  color: #ffffff;
   background-color: #4d5ae5;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-  min-width: 169px;
-  height: 56px;
   border: none;
   border-radius: 4px;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
 }
-button:hover {
+
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
-button:focus {
-  background-color: #404bbf;
-}
+
+/* İkinci Bölüm */
 .section-iki {
   padding: 120px 0;
+  text-align: center;
 }
-.visually-hidden {
-  display: none;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
+
 .sectioniki-ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
-  width: calc((100% - 72px) / 4); 
-}
-.section-iki .ikincisec-list {
-  flex-basis: calc((100% - 72px) / 4);
+  justify-content: center;
   list-style: none;
+  padding: 0;
 }
-.huc {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
+/* Üçüncü Bölüm */
 .section-uc {
   background-color: #f4f4fd;
   padding: 120px 0;
+  text-align: center;
 }
+
 .team-title {
   font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
 }
+
 .team-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
   list-style: none;
+  padding: 0;
 }
-.section-uc .team-member {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px !important;
-}
-.info {
-  padding: 32px 0;
-}
-.team-info {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: center;
-  margin-bottom: 8px;
-}
-.team-infoiki {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-align: center;
-}
+
+/* Operasyon Bölümü */
 .op-block {
   padding: 120px 0;
-}
-.title-op {
-  margin-bottom: 72px;
   text-align: center;
 }
+
 .op-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
+  justify-content: center;
   list-style: none;
+  padding: 0;
 }
-.op-block .op-items {
-  width: calc((100% - 48px) / 3);
-}
-.op-items-info {
-  padding: 32px 16px;
+
+.op-items {
+  flex: 1 1 calc(33.333% - 24px);
   border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
-  width: 360px;
+  padding: 32px;
 }
+
+/* Footer */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  text-align: center;
 }
+
 .logo-footer {
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-  margin-right: 76px;
   margin-bottom: 16px;
 }
+
 .footer-p {
   color: #f4f4fd;
   max-width: 264px;
+  margin: 0 auto;
 }
-span {
-  color: #f4f4fd;
+
+/* Responsive Tasarım */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 30px;
+  }
+  .nav-ul {
+    gap: 20px;
+  }
+  .address-ul {
+    gap: 20px;
+  }
+  .op-items {
+    flex: 1 1 calc(50% - 24px);
+  }
+}
+
+@media (max-width: 768px) {
+  .header-div {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .address-ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .team-list {
+    flex-direction: column;
+  }
+  .op-list {
+    flex-direction: column;
+  }
+  .op-items {
+    flex: 1 1 100%;
+  }
 }
