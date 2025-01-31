@@ -1,3 +1,4 @@
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -17,9 +18,9 @@ img {
   display: flex;
 }
 .container {
-  width: 1158px;
+  width: 1158px !important;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px !important;
 }
 .header-nav {
   display: flex;
