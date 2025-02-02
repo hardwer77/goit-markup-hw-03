@@ -223,6 +223,8 @@ p {
 }
 .container{
   margin-bottom: 8px !important;
+  padding: 32px 16px !important;
+  border: 1px solid #e7e9fc !important;
 }
 .op-list {
   display: flex;
