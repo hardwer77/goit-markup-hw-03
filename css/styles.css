@@ -18,8 +18,8 @@ img {
 .container1 {
   display: flex !important;
   width: 1158px !important;
-  padding: 0 15px !important;
-  margin: 0 auto !important;
+  padding: 15px !important;
+  margin:  auto !important;
 }
 
 .header-nav{
