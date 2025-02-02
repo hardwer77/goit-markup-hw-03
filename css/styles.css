@@ -15,10 +15,10 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
-  display: flex !important;
-  width: 1158px !important;
-  padding: 0 15px !important;
-  margin: 0 auto !important;
+  display: flex ;
+  width: 1158px ;
+  padding: 0 15px ;
+  margin: 0 auto ;
 }
 
 .header-nav {
@@ -139,16 +139,16 @@ button:focus {
   padding: 120px 0;
 }
 .visually-hidden {
-  display: none  !important;
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
+  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .section-tue-ul {
   display: flex;
@@ -224,7 +224,7 @@ p {
 .container{
   margin-bottom: 8px !important;
   padding: 32px 16px !important;
-  border-top: none;
+  border-top: none !important;
   border: 1px solid #e7e9fc !important;
 }
 .op-list {
