@@ -1,67 +1,60 @@
-/* Genel Stil Ayarları */
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
+  letter-spacing: 0.32px;
   color: #434455;
   background-color: #ffffff;
-  margin: 0;
 }
-
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
-
-/* Header Ayarları */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 20px 0;
-  background-color: #ffffff;
 }
-
-.container {
+.container{
+  display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
-.header-nav {
+.header-nav{
   display: flex;
   align-items: center;
 }
 
-.logo-one {
+.logo-one{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
   margin-right: 76px;
 }
-
-.logo-tue {
+.logo-tue{
+  font-family: "Raleway";
   color: #2e2f42;
 }
-
-.nav-ul {
+.nav-ul{
   display: flex;
   gap: 40px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+}
+.nav-ul li {
+  list-style-type: none;
 }
 
 .nav-links {
+  font-family: "Roboto";
   color: #2e2f42;
   font-weight: 500;
   text-decoration: none;
+  list-style-type: none;
   padding: 24px 0;
 }
 
@@ -70,151 +63,208 @@ img {
   text-decoration: underline;
   color: #404bbf;
 }
-
+.nav-links:visited {
+  text-decoration: none;
+}
 .address {
+  font-family: "Roboto";
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 400;
   font-style: normal;
 }
-
 .address-ul {
+  color: #434455;
+  text-decoration: none;
+  font-weight: 400;
+  list-style-type: none;
   display: flex;
   gap: 40px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
-
+.address-ul li {
+  color: #434455;
+  text-decoration: none;
+  font-weight: 400;
+}
 .address-links {
+  font-style: normal;
   color: #434455;
   text-decoration: none;
 }
-
 .address-links:hover,
 .address-links:focus {
   text-decoration: underline;
   color: #404bbf;
 }
-
-/* Ana İçerik */
+.address-links:visited {
+  text-decoration: none;
+}
 .section-one {
   background-color: #2e2f42;
   padding: 188px 0;
-  text-align: center;
-  color: #ffffff;
 }
-
 .head-title {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.02em;
   max-width: 496px;
-  margin: 0 auto 24px;
+  margin: 290px;
 }
 
 button {
-  background-color: #4d5ae5;
   color: #ffffff;
-  font-size: 16px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
 }
-
 button:hover {
   background-color: #404bbf;
 }
-
+button:focus {
+  background-color: #404bbf;
+}
 .section-tue {
   padding: 120px 0;
 }
-
+.visually-hidden {
+  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 .section-tue-ul {
   display: flex;
   gap: 24px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  width: calc((100% - 72px) / 4); 
 }
-
-.section-tue-list {
+.section-tue .section-tue-list {
   flex-basis: calc((100% - 72px) / 4);
+  list-style: none;
 }
-
 .huc {
-  font-size: 20px;
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
-
-/* Takım Bölümü */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .section-tree {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-
 .team-title {
   font-size: 36px;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
   margin-bottom: 72px;
 }
-
 .team-list {
   display: flex;
   gap: 24px;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
-
-.team-member {
-  background-color: #ffffff;
+.section-tree .team-member {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px !important;
+}
+.container-tree {
+  padding: 32px 0;
+}
+.team-info {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   text-align: center;
-  padding: 32px;
-  border-radius: 4px;
+  margin-bottom: 8px;
 }
-
-/* Portföy Bölümü */
+.team-info-tue {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
 .section-four {
   padding: 120px 0;
 }
-
+.title-op {
+  margin-bottom: 72px;
+  text-align: center;
+}
+.container{
+  margin-bottom: 8px !important;
+  padding: 32px 16px !important;
+  border-top: none !important;
+  border: 1px solid #e7e9fc !important;
+}
 .op-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
-
-.op-items {
-  flex-basis: calc((100% - 48px) / 3);
-  background-color: #ffffff;
-  border: 1px solid #e7e9fc;
+.op-block .op-items {
+  width: calc((100% - 48px) / 3);
 }
-
 .op-items-info {
-  padding: 16px;
-  text-align: center;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+  width: 360px;
 }
-
-/* Footer */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  text-align: center;
-  color: #f4f4fd;
 }
-
 .logo-footer {
-  font-size: 24px;
+  display: inline-block !important;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  margin-right: 76px;
+  margin-bottom: 16px;
 }
-
 .footer-p {
+  color: #f4f4fd;
   max-width: 264px;
-  margin: 16px auto 0;
+}
+span {
+  color: #f4f4fd;
 }
