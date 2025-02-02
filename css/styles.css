@@ -42,12 +42,12 @@ img {
   font-family: "Raleway";
   color: #2e2f42;
 }
-.nav ul {
+.ul {
   display: flex;
   justify-content: space-between;
 }
 
-.nav li {
+.li {
   width: calc((100% - 72px) / 4);
   /* veya */
   flex-basis: calc((100% - 3 * 24px) / 4);
