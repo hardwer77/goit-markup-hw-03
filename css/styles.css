@@ -14,8 +14,10 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-div {
+.container {
   display: flex;
+  width: 1158px;
+  padding: 0 15px;
 }
 .container {
   width: 1158px !important;
