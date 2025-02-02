@@ -42,17 +42,17 @@ img {
   font-family: "Raleway";
   color: #2e2f42;
 }
-.ul {
+.nav ul {
   display: flex;
   justify-content: space-between;
 }
 
-.li {
+.nav li {
   width: calc((100% - 72px) / 4);
   /* veya */
   flex-basis: calc((100% - 3 * 24px) / 4);
   /* Ekstra stil önerisi */
-  list-style: none; /* Noktaları kaldırır */
+  list-style: none; 
   padding: 10px;
 }
 
