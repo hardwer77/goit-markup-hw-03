@@ -152,7 +152,7 @@
       </section>
 
       <section class="section-four">
-        <div class="container-four">
+        <div class="container">
           <h2 class="title-op">Our Portfolio</h2>
           <ul class="op-list">
             <li class="op-items">
@@ -168,7 +168,7 @@
             </li>
             <li class="op-items">
               <img src="./image/cashless-payment.jpg" alt="payment photo" width="360" />
-              <div class="container-four">
+              <div class="container">
                 <h3 class="op-line-title">Cashless Payment</h3>
                 <p class="op-line-p">Marketing</p>
               </div>
@@ -179,14 +179,14 @@
                 alt="meditation app photo"
                 width="360"
               />
-              <div class="container-four">
+              <div class="container">
                 <h3 class="op-line-title">Meditation App</h3>
                 <p class="op-line-p">App</p>
               </div>
             </li>
             <li class="op-items">
               <img src="./image/taxi-service.jpg" alt="taxi photo" width="360" />
-              <div class="container-four">
+              <div class="container">
                 <h3 class="op-line-title">Taxi Service</h3>
                 <p class="op-line-p">Marketing</p>
               </div>
@@ -197,7 +197,7 @@
                 alt="screen design photo"
                 width="360"
               />
-              <div class="container-four">
+              <div class="container">
                 <h3 class="op-line-title">Screen Illustrations</h3>
                 <p class="op-line-p">Design</p>
               </div>
