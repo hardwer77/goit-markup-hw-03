@@ -15,15 +15,12 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
-  display: flex;
-  width: 1158px;
-  padding: 0 15px;
-}
-.container {
+  display: flex !important;
   width: 1158px !important;
-  margin: 0 auto;
   padding: 0 15px !important;
+  margin: 0 auto !important;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
