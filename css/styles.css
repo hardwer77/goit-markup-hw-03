@@ -27,7 +27,7 @@ img {
   align-items: center;
 }
 
-.logo-bir {
+.logo-one {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -100,11 +100,11 @@ img {
 .address-links:visited {
   text-decoration: none;
 }
-.section-bir {
+.section-one {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-h1 {
+.h1 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
