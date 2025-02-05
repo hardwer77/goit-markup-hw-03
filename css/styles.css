@@ -230,13 +230,13 @@ p {
   list-style: none;
 }
 .op-block .op-items {
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3) !important;
 }
 .op-items-info {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+  margin-bottom: 8px !important;
   width: 360px;
 }
 .footer {
@@ -244,7 +244,7 @@ p {
   padding: 100px 0;
 }
 .logo-footer {
-  display: inline-block;
+  display: inline-block !important;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
