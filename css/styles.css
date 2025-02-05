@@ -204,7 +204,8 @@ p {
   border-radius: 0px 0px 4px 4px !important;
 }
 .div-team {
-  padding: 32px 0;
+  padding: 32px 0 !important;
+  width: calc((100% - 72px) / 4);
 }
 .team-info {
   font-weight: 500;
