@@ -15,7 +15,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container {
+.div {
   display: flex !important;
   width: 1158px !important;
   padding: 15px !important;
@@ -203,7 +203,7 @@ p {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px !important;
 }
-.container3 {
+.div-team {
   padding: 32px 0;
 }
 .team-info {
@@ -229,7 +229,7 @@ p {
   margin-bottom: 72px;
   text-align: center;
 }
-.container4{
+.div-op{
   margin-bottom: 8px !important;
   padding: 32px 16px !important;
   border-top: none !important;
