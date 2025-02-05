@@ -139,6 +139,14 @@ button:focus {
 .section-iki {
   padding: 120px 0;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: calc((100% - 72px) / 4);
+}
 .visually-hidden {
   display: none;
   position: absolute;
