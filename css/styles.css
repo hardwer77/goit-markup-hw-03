@@ -230,7 +230,8 @@ p {
   list-style: none;
 }
 .op-block .op-items {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
+  
 }
 .op-items-info {
   padding: 32px 16px;
