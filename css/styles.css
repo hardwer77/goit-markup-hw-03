@@ -153,8 +153,8 @@ button:focus {
   border: 0;
 }
 .section-iki-ul {
-  display: flex;
-  gap: 24px;
+  display: flex !important;
+  gap: 24px !important;
 }
 
 .section-iki-ul li {
